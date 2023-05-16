@@ -16,8 +16,12 @@ function choosePlay(num) {
 }
 
 const computerChoice = choosePlay(randNum)
-// Make the User choose one
+
+
+// Choose Rock Paper or Scissors Here
 const userChoice = 'paper'
+
+
 // Compare the User's choice with the Computer's choice
 console.log(`The computer's choice is ${computerChoice}!`)
 console.log(`The user's choice is ${userChoice}!`)
